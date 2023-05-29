@@ -1,0 +1,5 @@
+add $t1 $t2 $t3
+label:
+beq $t1 $t2 label
+sw $t1, 4($t2)
+slti $t1 $t2 19

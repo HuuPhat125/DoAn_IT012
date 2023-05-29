@@ -1,0 +1,7 @@
+add $t1   $t2    $t3
+label:
+beq  $t1 $t2 label # byeee
+sw $t1, 4($t2)
+
+# hello
+slti $t1 $t2    19
